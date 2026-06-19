@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments (虚拟环境)
+.venv/
+venv/
+env/
+ENV/
+
+# IDEs (编辑器配置)
+.vscode/
+.idea/
+
+# Poetry / Pipenv / OS 临时文件
+.poetry/
+.pytest_cache/
+.DS_Store
