@@ -1,6 +1,6 @@
 # D2Rec
 
-> Official PyTorch Implementation of [Dual-Masked and Discriminative Reconstruction for Unified Vision Anomaly Detection](https://ieeexplore.ieee.org/document/11503645/), IEEE TIP.
+> Official PyTorch Implementation of [Dual-Masked and Discriminative Reconstruction for Unified Vision Anomaly Detection].
 
 ## Introduction 
 D2Rec is a simple, effective, general and robust unified (multi-class) vision anomaly detection framework that integrates unsupervised dual-masked reconstruction and a self-supervised discriminator, achieving competitive performance on both industrial and medical anomaly detection benchmarks.
