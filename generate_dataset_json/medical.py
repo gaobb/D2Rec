@@ -77,6 +77,5 @@ class MedicalSolver(object):
 
 
 if __name__ == '__main__':
-    #root = '/fuxi_team2/persons/danylgao/weicun_ceph/datasets/medical'
     runner = MedicalSolver(root='./data/medical')
     runner.run()

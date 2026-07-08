@@ -81,7 +81,5 @@ class IndustryDBSolver(object):
         print('meta_path', self.meta_path)
         
 if __name__ == '__main__':
-    root = "/fuxi_team2/persons/danylgao/weicun_ceph/datasets/Real-IAD-Variety"
-    json_path = '/fuxi_team2/persons/danylgao/weicun_ceph/datasets/Real-IAD-Variety-Json-v0829'
     runner = IndustryDBSolver(root='./data/Real-IAD-Variety')
     runner.run()
