@@ -1,0 +1,18 @@
+24-12-18 19:26:41.192 - INFO: Namespace(batch_size=16, dataset='visa', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=224, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec-1209/', seed=111, train_data_path='./data/visa')
+24-12-18 19:26:41.339 - INFO: test image numbe:2162, total classes number:12
+24-12-18 19:27:34.441 - INFO: 
+|    Name    |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:----------:|:---------:|:------:|:---------:|:------:|
+|   candle   |   96.5    |  97.0  |   99.4    |  42.6  |
+|  capsules  |   92.9    |  96.0  |   99.5    |  57.7  |
+|   cashew   |   92.8    |  96.1  |   98.6    |  64.8  |
+| chewinggum |   98.8    |  99.4  |   98.9    |  68.7  |
+|   fryum    |   97.9    |  99.0  |   97.5    |  49.3  |
+| macaroni1  |   95.3    |  95.5  |   98.8    |  34.3  |
+| macaroni2  |   84.4    |  84.1  |   98.9    |  12.2  |
+|    pcb1    |   97.2    |  96.7  |   99.7    |  73.3  |
+|    pcb2    |   97.9    |  97.7  |   99.0    |  25.5  |
+|    pcb3    |   97.7    |  97.7  |   99.1    |  23.3  |
+|    pcb4    |   99.4    |  99.4  |   98.9    |  48.3  |
+| pipe_fryum |   94.3    |  96.6  |   99.5    |  81.5  |
+|    Avg     |   95.4    |  96.3  |   99.0    |  48.5  |

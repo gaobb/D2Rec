@@ -1,0 +1,9 @@
+24-12-18 18:55:18.927 - INFO: Namespace(batch_size=16, dataset='btad', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=224, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec-1209/', seed=111, train_data_path='./data/btad')
+24-12-18 18:55:19.331 - INFO: test image numbe:741, total classes number:3
+24-12-18 18:55:45.112 - INFO: 
+|  Name  |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:------:|:---------:|:------:|:---------:|:------:|
+|   01   |   100.0   | 100.0  |   97.7    |  64.8  |
+|   02   |   90.0    |  98.4  |   95.1    |  47.1  |
+|   03   |   98.6    |  91.3  |   99.9    |  72.1  |
+|  Avg   |   96.2    |  96.6  |   97.6    |  61.3  |

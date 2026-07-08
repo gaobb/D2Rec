@@ -1,0 +1,9 @@
+24-12-18 19:00:44.895 - INFO: Namespace(batch_size=16, dataset='medical', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=224, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec-1209/', seed=111, train_data_path='./data/medical')
+24-12-18 19:00:44.986 - INFO: test image numbe:7013, total classes number:3
+24-12-18 19:05:01.713 - INFO: 
+|  Name   |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:-------:|:---------:|:------:|:---------:|:------:|
+|  brain  |   95.1    |  98.9  |   98.8    |  78.6  |
+|  liver  |   79.1    |  76.0  |   98.6    |  36.1  |
+| retinal |   91.5    |  90.6  |   96.7    |  67.1  |
+|   Avg   |   88.6    |  88.5  |   98.0    |  60.6  |
