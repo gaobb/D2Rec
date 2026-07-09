@@ -1,0 +1,99 @@
+25-09-28 10:32:05.478 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_5.pth', dataset='btad', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/btad-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/btad')
+25-09-28 10:32:05.556 - INFO: test image numbe:741, total classes number:3
+25-09-28 10:32:42.995 - INFO: 
+|  Name  |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:------:|:---------:|:------:|:---------:|:------:|
+|   01   |   96.7    |  98.8  |   97.3    |  66.9  |
+|   02   |   87.6    |  98.0  |   95.8    |  61.0  |
+|   03   |   99.6    |  96.6  |   99.8    |  79.4  |
+|  Avg   |   94.7    |  97.8  |   97.6    |  69.1  |
+25-09-28 10:32:58.672 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_10.pth', dataset='btad', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/btad-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/btad')
+25-09-28 10:32:58.738 - INFO: test image numbe:741, total classes number:3
+25-09-28 10:33:34.501 - INFO: 
+|  Name  |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:------:|:---------:|:------:|:---------:|:------:|
+|   01   |   97.1    |  98.9  |   97.4    |  69.5  |
+|   02   |   88.0    |  98.1  |   95.4    |  55.7  |
+|   03   |   99.6    |  96.1  |   99.9    |  82.3  |
+|  Avg   |   94.9    |  97.7  |   97.6    |  69.1  |
+25-09-28 10:33:59.326 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_15.pth', dataset='btad', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/btad-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/btad')
+25-09-28 10:33:59.429 - INFO: test image numbe:741, total classes number:3
+25-09-28 10:34:34.418 - INFO: 
+|  Name  |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:------:|:---------:|:------:|:---------:|:------:|
+|   01   |   97.6    |  99.1  |   97.6    |  71.4  |
+|   02   |   89.4    |  98.3  |   96.4    |  62.7  |
+|   03   |   98.6    |  89.3  |   99.9    |  81.7  |
+|  Avg   |   95.2    |  95.6  |   98.0    |  71.9  |
+25-09-28 10:34:57.264 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_20.pth', dataset='btad', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/btad-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/btad')
+25-09-28 10:34:57.326 - INFO: test image numbe:741, total classes number:3
+25-09-28 10:35:32.487 - INFO: 
+|  Name  |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:------:|:---------:|:------:|:---------:|:------:|
+|   01   |   96.9    |  98.8  |   97.8    |  71.3  |
+|   02   |   89.8    |  98.4  |   94.7    |  49.3  |
+|   03   |   99.3    |  95.1  |   99.9    |  79.3  |
+|  Avg   |   95.3    |  97.4  |   97.5    |  66.6  |
+25-09-28 10:35:46.202 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_25.pth', dataset='btad', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/btad-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/btad')
+25-09-28 10:35:46.264 - INFO: test image numbe:741, total classes number:3
+25-09-28 10:36:20.996 - INFO: 
+|  Name  |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:------:|:---------:|:------:|:---------:|:------:|
+|   01   |   97.3    |  99.0  |   97.7    |  72.0  |
+|   02   |   89.4    |  98.3  |   94.5    |  44.1  |
+|   03   |   99.4    |  94.7  |   99.9    |  82.9  |
+|  Avg   |   95.4    |  97.4  |   97.4    |  66.3  |
+25-09-28 10:36:32.823 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_25.pth', dataset='btad', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/btad-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/btad')
+25-09-28 10:36:32.882 - INFO: test image numbe:741, total classes number:3
+25-09-28 10:37:06.812 - INFO: 
+|  Name  |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:------:|:---------:|:------:|:---------:|:------:|
+|   01   |   97.3    |  99.0  |   97.7    |  72.0  |
+|   02   |   89.4    |  98.3  |   94.5    |  44.1  |
+|   03   |   99.4    |  94.7  |   99.9    |  82.9  |
+|  Avg   |   95.4    |  97.4  |   97.4    |  66.3  |
+25-09-28 10:37:18.101 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_30.pth', dataset='btad', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/btad-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/btad')
+25-09-28 10:37:18.163 - INFO: test image numbe:741, total classes number:3
+25-09-28 10:37:53.385 - INFO: 
+|  Name  |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:------:|:---------:|:------:|:---------:|:------:|
+|   01   |   97.6    |  99.1  |   97.8    |  72.8  |
+|   02   |   89.5    |  98.4  |   94.9    |  46.8  |
+|   03   |   99.2    |  94.2  |   99.9    |  81.3  |
+|  Avg   |   95.4    |  97.2  |   97.5    |  67.0  |
+25-09-28 10:38:05.601 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_35.pth', dataset='btad', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/btad-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/btad')
+25-09-28 10:38:05.667 - INFO: test image numbe:741, total classes number:3
+25-09-28 10:38:40.870 - INFO: 
+|  Name  |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:------:|:---------:|:------:|:---------:|:------:|
+|   01   |   97.5    |  99.1  |   98.0    |  73.1  |
+|   02   |   89.5    |  98.4  |   95.1    |  47.8  |
+|   03   |   99.4    |  95.1  |   99.9    |  80.6  |
+|  Avg   |   95.4    |  97.5  |   97.6    |  67.2  |
+25-09-28 10:38:53.961 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_40.pth', dataset='btad', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/btad-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/btad')
+25-09-28 10:38:54.024 - INFO: test image numbe:741, total classes number:3
+25-09-28 10:39:29.480 - INFO: 
+|  Name  |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:------:|:---------:|:------:|:---------:|:------:|
+|   01   |   97.8    |  99.2  |   97.9    |  72.4  |
+|   02   |   89.2    |  98.3  |   94.8    |  44.0  |
+|   03   |   99.1    |  93.2  |   99.9    |  83.0  |
+|  Avg   |   95.4    |  96.9  |   97.5    |  66.4  |
+25-09-28 10:39:42.607 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_45.pth', dataset='btad', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/btad-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/btad')
+25-09-28 10:39:42.666 - INFO: test image numbe:741, total classes number:3
+25-09-28 10:40:18.283 - INFO: 
+|  Name  |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:------:|:---------:|:------:|:---------:|:------:|
+|   01   |   97.7    |  99.2  |   97.9    |  72.8  |
+|   02   |   89.0    |  98.3  |   94.6    |  42.0  |
+|   03   |   99.3    |  94.1  |   99.9    |  82.8  |
+|  Avg   |   95.3    |  97.2  |   97.5    |  65.9  |
+25-09-28 10:40:32.813 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_50.pth', dataset='btad', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/btad-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/btad')
+25-09-28 10:40:32.906 - INFO: test image numbe:741, total classes number:3
+25-09-28 10:41:07.547 - INFO: 
+|  Name  |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:------:|:---------:|:------:|:---------:|:------:|
+|   01   |   97.8    |  99.2  |   97.9    |  72.9  |
+|   02   |   89.6    |  98.4  |   94.8    |  43.3  |
+|   03   |   99.3    |  94.4  |   99.9    |  80.2  |
+|  Avg   |   95.5    |  97.3  |   97.5    |  65.5  |

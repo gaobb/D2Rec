@@ -1,0 +1,198 @@
+25-09-28 10:08:16.235 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_5.pth', dataset='visa', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/visa-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/visa')
+25-09-28 10:08:16.318 - INFO: test image numbe:2162, total classes number:12
+25-09-28 10:09:36.955 - INFO: 
+|    Name    |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:----------:|:---------:|:------:|:---------:|:------:|
+|   candle   |   96.3    |  96.6  |   99.6    |  55.8  |
+|  capsules  |   98.2    |  98.8  |   99.5    |  65.9  |
+|   cashew   |   89.0    |  94.4  |   94.1    |  53.2  |
+| chewinggum |   98.0    |  99.0  |   99.1    |  71.7  |
+|   fryum    |   98.5    |  99.3  |   96.5    |  49.4  |
+| macaroni1  |   97.2    |  95.3  |   99.7    |  20.6  |
+| macaroni2  |   93.5    |  88.4  |   99.8    |  22.4  |
+|    pcb1    |   96.3    |  96.0  |   99.4    |  81.5  |
+|    pcb2    |   96.5    |  96.4  |   97.3    |  41.2  |
+|    pcb3    |   98.1    |  98.5  |   97.2    |  29.3  |
+|    pcb4    |   99.4    |  99.4  |   98.5    |  50.5  |
+| pipe_fryum |   94.6    |  96.4  |   99.0    |  65.9  |
+|    Avg     |   96.3    |  96.5  |   98.3    |  50.6  |
+25-09-28 10:10:14.522 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_10.pth', dataset='visa', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/visa-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/visa')
+25-09-28 10:10:14.597 - INFO: test image numbe:2162, total classes number:12
+25-09-28 10:11:35.169 - INFO: 
+|    Name    |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:----------:|:---------:|:------:|:---------:|:------:|
+|   candle   |   96.9    |  97.1  |   99.6    |  49.8  |
+|  capsules  |   98.4    |  98.9  |   99.6    |  70.4  |
+|   cashew   |   94.2    |  96.5  |   94.8    |  65.3  |
+| chewinggum |   98.2    |  99.2  |   99.0    |  65.8  |
+|   fryum    |   99.0    |  99.5  |   96.8    |  52.3  |
+| macaroni1  |   97.6    |  97.1  |   99.7    |  25.7  |
+| macaroni2  |   95.0    |  93.0  |   99.8    |  24.2  |
+|    pcb1    |   97.9    |  97.8  |   99.4    |  82.5  |
+|    pcb2    |   98.1    |  98.1  |   97.6    |  36.7  |
+|    pcb3    |   97.3    |  97.7  |   97.4    |  30.3  |
+|    pcb4    |   99.2    |  99.2  |   98.9    |  55.8  |
+| pipe_fryum |   97.2    |  98.1  |   99.3    |  78.3  |
+|    Avg     |   97.4    |  97.7  |   98.5    |  53.1  |
+25-09-28 10:12:13.067 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_15.pth', dataset='visa', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/visa-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/visa')
+25-09-28 10:12:13.143 - INFO: test image numbe:2162, total classes number:12
+25-09-28 10:13:33.624 - INFO: 
+|    Name    |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:----------:|:---------:|:------:|:---------:|:------:|
+|   candle   |   97.4    |  97.7  |   99.6    |  48.0  |
+|  capsules  |   98.7    |  99.1  |   99.6    |  70.4  |
+|   cashew   |   94.0    |  96.5  |   94.7    |  65.8  |
+| chewinggum |   98.5    |  99.3  |   98.9    |  59.6  |
+|   fryum    |   98.4    |  99.2  |   96.9    |  52.0  |
+| macaroni1  |   97.1    |  96.0  |   99.8    |  32.3  |
+| macaroni2  |   96.2    |  95.5  |   99.8    |  27.0  |
+|    pcb1    |   97.2    |  97.0  |   99.4    |  85.0  |
+|    pcb2    |   98.8    |  98.8  |   97.6    |  35.2  |
+|    pcb3    |   97.7    |  98.1  |   97.5    |  30.8  |
+|    pcb4    |   99.4    |  99.3  |   98.5    |  50.2  |
+| pipe_fryum |   98.2    |  98.8  |   99.3    |  77.2  |
+|    Avg     |   97.6    |  97.9  |   98.5    |  52.8  |
+25-09-28 10:14:10.828 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_20.pth', dataset='visa', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/visa-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/visa')
+25-09-28 10:14:10.902 - INFO: test image numbe:2162, total classes number:12
+25-09-28 10:15:32.328 - INFO: 
+|    Name    |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:----------:|:---------:|:------:|:---------:|:------:|
+|   candle   |   97.0    |  97.2  |   99.6    |  48.2  |
+|  capsules  |   98.8    |  99.2  |   99.6    |  70.0  |
+|   cashew   |   91.2    |  94.7  |   95.0    |  59.6  |
+| chewinggum |   97.4    |  98.8  |   98.9    |  54.4  |
+|   fryum    |   98.6    |  99.4  |   96.8    |  50.1  |
+| macaroni1  |   97.2    |  95.1  |   99.8    |  35.7  |
+| macaroni2  |   97.2    |  96.8  |   99.8    |  32.6  |
+|    pcb1    |   97.7    |  97.5  |   99.4    |  83.6  |
+|    pcb2    |   99.2    |  99.2  |   97.8    |  37.3  |
+|    pcb3    |   98.2    |  98.5  |   97.5    |  27.8  |
+|    pcb4    |   99.5    |  99.6  |   98.7    |  54.5  |
+| pipe_fryum |   97.5    |  98.4  |   99.3    |  76.5  |
+|    Avg     |   97.5    |  97.9  |   98.5    |  52.5  |
+25-09-28 10:16:09.791 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_25.pth', dataset='visa', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/visa-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/visa')
+25-09-28 10:16:09.866 - INFO: test image numbe:2162, total classes number:12
+25-09-28 10:17:31.103 - INFO: 
+|    Name    |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:----------:|:---------:|:------:|:---------:|:------:|
+|   candle   |   95.9    |  95.9  |   99.6    |  51.1  |
+|  capsules  |   98.1    |  98.8  |   99.6    |  69.6  |
+|   cashew   |   92.8    |  96.0  |   95.4    |  68.8  |
+| chewinggum |   97.6    |  98.9  |   99.0    |  62.6  |
+|   fryum    |   98.6    |  99.4  |   96.9    |  52.1  |
+| macaroni1  |   97.0    |  95.8  |   99.8    |  26.2  |
+| macaroni2  |   98.4    |  98.2  |   99.8    |  26.8  |
+|    pcb1    |   97.7    |  97.6  |   99.5    |  84.2  |
+|    pcb2    |   99.1    |  99.2  |   98.0    |  34.9  |
+|    pcb3    |   98.5    |  98.8  |   97.6    |  28.7  |
+|    pcb4    |   99.2    |  99.2  |   98.7    |  53.0  |
+| pipe_fryum |   97.5    |  98.4  |   99.4    |  80.9  |
+|    Avg     |   97.5    |  98.0  |   98.6    |  53.2  |
+25-09-28 10:18:09.143 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_25.pth', dataset='visa', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/visa-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/visa')
+25-09-28 10:18:09.217 - INFO: test image numbe:2162, total classes number:12
+25-09-28 10:19:28.924 - INFO: 
+|    Name    |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:----------:|:---------:|:------:|:---------:|:------:|
+|   candle   |   95.9    |  95.9  |   99.6    |  51.1  |
+|  capsules  |   98.1    |  98.8  |   99.6    |  69.6  |
+|   cashew   |   92.8    |  96.0  |   95.4    |  68.8  |
+| chewinggum |   97.6    |  98.9  |   99.0    |  62.6  |
+|   fryum    |   98.6    |  99.4  |   96.9    |  52.1  |
+| macaroni1  |   97.0    |  95.8  |   99.8    |  26.2  |
+| macaroni2  |   98.4    |  98.2  |   99.8    |  26.8  |
+|    pcb1    |   97.7    |  97.6  |   99.5    |  84.2  |
+|    pcb2    |   99.1    |  99.2  |   98.0    |  34.9  |
+|    pcb3    |   98.5    |  98.8  |   97.6    |  28.7  |
+|    pcb4    |   99.2    |  99.2  |   98.7    |  53.0  |
+| pipe_fryum |   97.5    |  98.4  |   99.4    |  80.9  |
+|    Avg     |   97.5    |  98.0  |   98.6    |  53.2  |
+25-09-28 10:20:17.124 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_30.pth', dataset='visa', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/visa-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/visa')
+25-09-28 10:20:17.199 - INFO: test image numbe:2162, total classes number:12
+25-09-28 10:21:37.906 - INFO: 
+|    Name    |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:----------:|:---------:|:------:|:---------:|:------:|
+|   candle   |   96.4    |  96.6  |   99.6    |  51.6  |
+|  capsules  |   98.4    |  99.0  |   99.7    |  70.5  |
+|   cashew   |   94.5    |  96.8  |   95.7    |  71.4  |
+| chewinggum |   97.5    |  98.8  |   99.0    |  68.8  |
+|   fryum    |   98.0    |  99.0  |   96.8    |  52.1  |
+| macaroni1  |   96.8    |  95.5  |   99.8    |  28.4  |
+| macaroni2  |   96.3    |  95.8  |   99.8    |  27.0  |
+|    pcb1    |   98.4    |  98.3  |   99.5    |  85.2  |
+|    pcb2    |   99.4    |  99.4  |   97.8    |  35.4  |
+|    pcb3    |   98.4    |  98.7  |   97.7    |  30.1  |
+|    pcb4    |   99.8    |  99.8  |   98.5    |  50.0  |
+| pipe_fryum |   95.6    |  97.3  |   99.4    |  81.5  |
+|    Avg     |   97.5    |  97.9  |   98.6    |  54.3  |
+25-09-28 10:22:27.147 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_35.pth', dataset='visa', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/visa-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/visa')
+25-09-28 10:22:27.222 - INFO: test image numbe:2162, total classes number:12
+25-09-28 10:23:48.081 - INFO: 
+|    Name    |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:----------:|:---------:|:------:|:---------:|:------:|
+|   candle   |   97.1    |  97.4  |   99.6    |  53.6  |
+|  capsules  |   98.5    |  99.0  |   99.7    |  70.4  |
+|   cashew   |   90.8    |  94.8  |   95.2    |  61.9  |
+| chewinggum |   97.3    |  98.7  |   99.0    |  67.4  |
+|   fryum    |   97.9    |  99.0  |   96.8    |  52.1  |
+| macaroni1  |   96.9    |  95.7  |   99.8    |  33.5  |
+| macaroni2  |   97.3    |  97.2  |   99.8    |  27.1  |
+|    pcb1    |   98.0    |  97.9  |   99.5    |  83.8  |
+|    pcb2    |   99.2    |  99.3  |   97.9    |  33.8  |
+|    pcb3    |   98.6    |  98.9  |   97.7    |  29.7  |
+|    pcb4    |   99.4    |  99.3  |   98.6    |  51.5  |
+| pipe_fryum |   95.0    |  97.0  |   99.4    |  81.0  |
+|    Avg     |   97.2    |  97.9  |   98.6    |  53.8  |
+25-09-28 10:24:33.085 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_40.pth', dataset='visa', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/visa-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/visa')
+25-09-28 10:24:33.160 - INFO: test image numbe:2162, total classes number:12
+25-09-28 10:25:54.473 - INFO: 
+|    Name    |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:----------:|:---------:|:------:|:---------:|:------:|
+|   candle   |   97.2    |  97.6  |   99.6    |  53.4  |
+|  capsules  |   98.1    |  98.8  |   99.7    |  69.5  |
+|   cashew   |   89.3    |  94.4  |   95.6    |  66.8  |
+| chewinggum |   97.1    |  98.6  |   99.0    |  67.0  |
+|   fryum    |   98.0    |  99.0  |   96.8    |  51.4  |
+| macaroni1  |   96.8    |  95.6  |   99.8    |  29.2  |
+| macaroni2  |   96.4    |  96.2  |   99.8    |  27.2  |
+|    pcb1    |   98.3    |  98.1  |   99.5    |  82.3  |
+|    pcb2    |   99.6    |  99.6  |   97.9    |  33.9  |
+|    pcb3    |   98.6    |  98.9  |   97.7    |  29.4  |
+|    pcb4    |   99.7    |  99.6  |   98.5    |  49.3  |
+| pipe_fryum |   97.1    |  98.3  |   99.4    |  82.7  |
+|    Avg     |   97.2    |  97.9  |   98.6    |  53.5  |
+25-09-28 10:26:42.795 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_45.pth', dataset='visa', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/visa-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/visa')
+25-09-28 10:26:42.872 - INFO: test image numbe:2162, total classes number:12
+25-09-28 10:28:03.676 - INFO: 
+|    Name    |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:----------:|:---------:|:------:|:---------:|:------:|
+|   candle   |   96.7    |  96.9  |   99.6    |  52.5  |
+|  capsules  |   98.5    |  99.0  |   99.7    |  70.6  |
+|   cashew   |   87.4    |  93.5  |   95.6    |  67.5  |
+| chewinggum |   96.4    |  98.3  |   99.0    |  66.6  |
+|   fryum    |   97.8    |  99.0  |   96.9    |  51.2  |
+| macaroni1  |   96.3    |  95.2  |   99.8    |  30.1  |
+| macaroni2  |   97.0    |  96.7  |   99.8    |  27.1  |
+|    pcb1    |   98.1    |  97.9  |   99.5    |  82.7  |
+|    pcb2    |   99.3    |  99.3  |   98.0    |  32.7  |
+|    pcb3    |   98.6    |  98.9  |   97.7    |  28.4  |
+|    pcb4    |   99.5    |  99.5  |   98.6    |  50.4  |
+| pipe_fryum |   94.8    |  96.8  |   99.4    |  81.1  |
+|    Avg     |   96.7    |  97.6  |   98.6    |  53.4  |
+25-09-28 10:29:22.818 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_50.pth', dataset='visa', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/visa-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/visa')
+25-09-28 10:29:22.893 - INFO: test image numbe:2162, total classes number:12
+25-09-28 10:30:43.634 - INFO: 
+|    Name    |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:----------:|:---------:|:------:|:---------:|:------:|
+|   candle   |   97.2    |  97.5  |   99.6    |  53.7  |
+|  capsules  |   98.5    |  99.0  |   99.7    |  70.1  |
+|   cashew   |   89.7    |  94.7  |   95.8    |  68.4  |
+| chewinggum |   96.5    |  98.4  |   99.0    |  66.9  |
+|   fryum    |   98.2    |  99.1  |   96.9    |  51.5  |
+| macaroni1  |   96.7    |  95.7  |   99.8    |  30.4  |
+| macaroni2  |   97.0    |  96.9  |   99.8    |  26.3  |
+|    pcb1    |   98.4    |  98.3  |   99.5    |  81.2  |
+|    pcb2    |   99.5    |  99.5  |   97.9    |  33.7  |
+|    pcb3    |   98.7    |  99.0  |   97.7    |  29.3  |
+|    pcb4    |   99.6    |  99.6  |   98.6    |  50.3  |
+| pipe_fryum |   96.0    |  97.5  |   99.4    |  81.2  |
+|    Avg     |   97.2    |  97.9  |   98.6    |  53.6  |

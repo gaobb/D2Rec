@@ -1,0 +1,148 @@
+25-09-28 10:41:20.124 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_5.pth', dataset='medical', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/medical-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/medical')
+25-09-28 10:41:20.230 - INFO: test image numbe:7013, total classes number:3
+25-09-28 10:48:09.243 - INFO: 
+|  Name   |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:-------:|:---------:|:------:|:---------:|:------:|
+|  brain  |   90.5    |  97.9  |   97.3    |  68.6  |
+|  liver  |   83.1    |  79.3  |   97.7    |  27.7  |
+| retinal |   91.0    |  88.7  |   95.8    |  67.3  |
+|   Avg   |   88.2    |  88.6  |   96.9    |  54.5  |
+25-09-28 10:49:26.187 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_10.pth', dataset='medical', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/medical-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/medical')
+25-09-28 10:49:26.282 - INFO: test image numbe:7013, total classes number:3
+25-09-28 10:56:18.041 - INFO: 
+|  Name   |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:-------:|:---------:|:------:|:---------:|:------:|
+|  brain  |   88.5    |  97.3  |   97.2    |  66.3  |
+|  liver  |   82.3    |  78.6  |   97.4    |  27.1  |
+| retinal |   89.3    |  87.3  |   95.8    |  67.7  |
+|   Avg   |   86.7    |  87.7  |   96.8    |  53.7  |
+25-09-28 10:57:59.198 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_15.pth', dataset='medical', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/medical-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/medical')
+25-09-28 10:57:59.294 - INFO: test image numbe:7013, total classes number:3
+25-09-28 11:04:54.153 - INFO: 
+|  Name   |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:-------:|:---------:|:------:|:---------:|:------:|
+|  brain  |   90.5    |  98.0  |   97.5    |  73.3  |
+|  liver  |   84.9    |  79.6  |   97.7    |  30.7  |
+| retinal |   90.4    |  88.9  |   95.9    |  67.7  |
+|   Avg   |   88.6    |  88.8  |   97.0    |  57.2  |
+25-09-28 11:08:05.319 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_20.pth', dataset='medical', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/medical-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/medical')
+25-09-28 11:08:05.418 - INFO: test image numbe:7013, total classes number:3
+25-09-28 11:14:57.527 - INFO: 
+|  Name   |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:-------:|:---------:|:------:|:---------:|:------:|
+|  brain  |   91.4    |  98.2  |   97.4    |  71.4  |
+|  liver  |   84.2    |  80.1  |   97.5    |  30.2  |
+| retinal |   88.1    |  84.9  |   95.8    |  65.6  |
+|   Avg   |   87.9    |  87.7  |   96.9    |  55.7  |
+25-09-28 11:17:53.601 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_25.pth', dataset='medical', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/medical-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/medical')
+25-09-28 11:17:53.697 - INFO: test image numbe:7013, total classes number:3
+25-09-28 11:24:47.657 - INFO: 
+|  Name   |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:-------:|:---------:|:------:|:---------:|:------:|
+|  brain  |   92.0    |  98.3  |   97.6    |  74.8  |
+|  liver  |   85.4    |  80.2  |   97.7    |  34.9  |
+| retinal |   89.5    |  86.9  |   95.9    |  66.7  |
+|   Avg   |   89.0    |  88.5  |   97.1    |  58.8  |
+25-09-28 11:28:13.224 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_25.pth', dataset='medical', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/medical-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/medical')
+25-09-28 11:28:13.322 - INFO: test image numbe:7013, total classes number:3
+25-09-28 11:35:05.933 - INFO: 
+|  Name   |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:-------:|:---------:|:------:|:---------:|:------:|
+|  brain  |   92.0    |  98.3  |   97.6    |  74.8  |
+|  liver  |   85.4    |  80.2  |   97.7    |  34.9  |
+| retinal |   89.5    |  86.9  |   95.9    |  66.7  |
+|   Avg   |   89.0    |  88.5  |   97.1    |  58.8  |
+25-10-08 20:44:40.636 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_5.pth', dataset='medical', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/medical-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/medical')
+25-10-08 20:44:41.168 - INFO: test image numbe:7013, total classes number:3
+25-10-08 20:44:58.440 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_10.pth', dataset='medical', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/medical-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/medical')
+25-10-08 20:44:58.530 - INFO: test image numbe:7013, total classes number:3
+25-10-08 20:50:19.751 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_5.pth', dataset='medical', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/medical-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/medical')
+25-10-08 20:50:19.847 - INFO: test image numbe:7013, total classes number:3
+25-10-08 20:57:13.965 - INFO: 
+|  Name   |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:-------:|:---------:|:------:|:---------:|:------:|
+|  brain  |   90.5    |  97.9  |   97.3    |  68.6  |
+|  liver  |   83.1    |  79.3  |   97.7    |  27.7  |
+| retinal |   91.0    |  88.7  |   95.8    |  67.3  |
+|   Avg   |   88.2    |  88.6  |   96.9    |  54.5  |
+25-10-08 20:59:20.199 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_10.pth', dataset='medical', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/medical-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/medical')
+25-10-08 20:59:20.514 - INFO: test image numbe:7013, total classes number:3
+25-10-08 21:06:15.267 - INFO: 
+|  Name   |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:-------:|:---------:|:------:|:---------:|:------:|
+|  brain  |   88.5    |  97.3  |   97.2    |  66.3  |
+|  liver  |   82.3    |  78.6  |   97.4    |  27.1  |
+| retinal |   89.3    |  87.3  |   95.8    |  67.7  |
+|   Avg   |   86.7    |  87.7  |   96.8    |  53.7  |
+25-10-08 21:07:48.329 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_15.pth', dataset='medical', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/medical-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/medical')
+25-10-08 21:07:48.424 - INFO: test image numbe:7013, total classes number:3
+25-10-08 21:14:53.568 - INFO: 
+|  Name   |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:-------:|:---------:|:------:|:---------:|:------:|
+|  brain  |   90.5    |  98.0  |   97.5    |  73.3  |
+|  liver  |   84.9    |  79.6  |   97.7    |  30.7  |
+| retinal |   90.4    |  88.9  |   95.9    |  67.7  |
+|   Avg   |   88.6    |  88.8  |   97.0    |  57.2  |
+25-10-08 21:16:28.705 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_20.pth', dataset='medical', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/medical-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/medical')
+25-10-08 21:16:28.803 - INFO: test image numbe:7013, total classes number:3
+25-10-08 21:25:38.566 - INFO: 
+|  Name   |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:-------:|:---------:|:------:|:---------:|:------:|
+|  brain  |   91.4    |  98.2  |   97.4    |  71.4  |
+|  liver  |   84.2    |  80.1  |   97.5    |  30.2  |
+| retinal |   88.1    |  84.9  |   95.8    |  65.6  |
+|   Avg   |   87.9    |  87.7  |   96.9    |  55.7  |
+25-10-08 21:27:20.010 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_25.pth', dataset='medical', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/medical-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/medical')
+25-10-08 21:27:20.111 - INFO: test image numbe:7013, total classes number:3
+25-10-08 21:36:32.663 - INFO: 
+|  Name   |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:-------:|:---------:|:------:|:---------:|:------:|
+|  brain  |   92.0    |  98.3  |   97.6    |  74.8  |
+|  liver  |   85.4    |  80.2  |   97.7    |  34.9  |
+| retinal |   89.5    |  86.9  |   95.9    |  66.7  |
+|   Avg   |   89.0    |  88.5  |   97.1    |  58.8  |
+25-10-08 21:38:44.962 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_30.pth', dataset='medical', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/medical-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/medical')
+25-10-08 21:38:45.287 - INFO: test image numbe:7013, total classes number:3
+25-10-08 21:45:58.771 - INFO: 
+|  Name   |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:-------:|:---------:|:------:|:---------:|:------:|
+|  brain  |   91.5    |  98.2  |   97.5    |  72.9  |
+|  liver  |   85.7    |  81.4  |   97.8    |  36.1  |
+| retinal |   89.4    |  87.4  |   95.9    |  67.3  |
+|   Avg   |   88.9    |  89.0  |   97.0    |  58.8  |
+25-10-08 21:48:08.067 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_35.pth', dataset='medical', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/medical-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/medical')
+25-10-08 21:48:08.456 - INFO: test image numbe:7013, total classes number:3
+25-10-08 21:55:08.075 - INFO: 
+|  Name   |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:-------:|:---------:|:------:|:---------:|:------:|
+|  brain  |   91.0    |  98.1  |   97.5    |  73.3  |
+|  liver  |   85.7    |  79.9  |   98.1    |  43.4  |
+| retinal |   88.9    |  87.1  |   95.8    |  66.4  |
+|   Avg   |   88.5    |  88.4  |   97.2    |  61.0  |
+25-10-08 21:56:47.123 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_40.pth', dataset='medical', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/medical-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/medical')
+25-10-08 21:56:47.225 - INFO: test image numbe:7013, total classes number:3
+25-10-08 22:03:46.763 - INFO: 
+|  Name   |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:-------:|:---------:|:------:|:---------:|:------:|
+|  brain  |   91.5    |  98.2  |   97.7    |  75.7  |
+|  liver  |   85.2    |  78.9  |   98.0    |  41.5  |
+| retinal |   89.6    |  88.7  |   95.9    |  67.2  |
+|   Avg   |   88.8    |  88.6  |   97.2    |  61.5  |
+25-10-08 22:05:41.901 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_45.pth', dataset='medical', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/medical-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/medical')
+25-10-08 22:05:41.998 - INFO: test image numbe:7013, total classes number:3
+25-10-08 22:12:41.675 - INFO: 
+|  Name   |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:-------:|:---------:|:------:|:---------:|:------:|
+|  brain  |   91.7    |  98.3  |   97.7    |  76.2  |
+|  liver  |   84.4    |  77.5  |   98.0    |  39.2  |
+| retinal |   89.7    |  88.2  |   95.9    |  68.1  |
+|   Avg   |   88.6    |  88.0  |   97.2    |  61.2  |
+25-10-08 22:14:21.629 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_50.pth', dataset='medical', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/medical-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/medical')
+25-10-08 22:14:21.729 - INFO: test image numbe:7013, total classes number:3
+25-10-08 22:21:22.377 - INFO: 
+|  Name   |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:-------:|:---------:|:------:|:---------:|:------:|
+|  brain  |   91.5    |  98.2  |   97.8    |  76.4  |
+|  liver  |   85.8    |  79.9  |   98.1    |  42.0  |
+| retinal |   89.6    |  88.6  |   95.9    |  67.5  |
+|   Avg   |   89.0    |  88.9  |   97.3    |  62.0  |

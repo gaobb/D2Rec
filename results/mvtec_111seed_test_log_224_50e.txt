@@ -1,4 +1,4 @@
-24-12-18 19:24:03.669 - INFO: Namespace(batch_size=16, dataset='mvtec', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=224, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec-1209/', seed=111, train_data_path='./data/mvtec')
+24-12-18 19:24:03.669 - INFO: Namespace(batch_size=16, dataset='mvtec', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=224, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/mvtec-224-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/mvtec')
 24-12-18 19:24:04.030 - INFO: test image numbe:1725, total classes number:15
 24-12-18 19:24:52.720 - INFO: 
 |    Name    |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |

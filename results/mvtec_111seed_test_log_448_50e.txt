@@ -1,0 +1,231 @@
+25-09-28 09:44:38.785 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_5.pth', dataset='mvtec', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/mvtec-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/mvtec')
+25-09-28 09:44:38.944 - INFO: test image numbe:1725, total classes number:15
+25-09-28 09:45:46.666 - INFO: 
+|    Name    |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:----------:|:---------:|:------:|:---------:|:------:|
+|   carpet   |   99.7    |  99.9  |   99.6    |  86.0  |
+|   bottle   |   100.0   | 100.0  |   99.0    |  90.0  |
+|  hazelnut  |   99.9    |  99.9  |   99.5    |  87.1  |
+|  leather   |   100.0   | 100.0  |   99.6    |  71.0  |
+|   cable    |   98.5    |  99.2  |   98.3    |  77.7  |
+|  capsule   |   92.8    |  98.2  |   98.2    |  56.0  |
+|    grid    |   99.3    |  99.8  |   99.5    |  63.8  |
+|    pill    |   97.5    |  99.5  |   96.6    |  68.3  |
+| transistor |   97.4    |  95.7  |   90.1    |  54.4  |
+| metal_nut  |   100.0   | 100.0  |   96.0    |  79.1  |
+|   screw    |   92.5    |  97.6  |   99.4    |  55.2  |
+| toothbrush |   100.0   | 100.0  |   99.2    |  66.9  |
+|   zipper   |   98.6    |  99.6  |   98.7    |  78.9  |
+|    tile    |   99.5    |  99.8  |   99.3    |  94.3  |
+|    wood    |   100.0   | 100.0  |   98.0    |  82.7  |
+|    Avg     |   98.4    |  99.3  |   98.1    |  74.1  |
+25-09-28 09:46:46.566 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_10.pth', dataset='mvtec', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/mvtec-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/mvtec')
+25-09-28 09:46:46.634 - INFO: test image numbe:1725, total classes number:15
+25-09-28 09:47:53.318 - INFO: 
+|    Name    |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:----------:|:---------:|:------:|:---------:|:------:|
+|   carpet   |   99.6    |  99.9  |   99.6    |  85.9  |
+|   bottle   |   100.0   | 100.0  |   99.0    |  88.7  |
+|  hazelnut  |   99.9    |  99.9  |   99.7    |  91.9  |
+|  leather   |   100.0   | 100.0  |   99.5    |  64.1  |
+|   cable    |   99.3    |  99.6  |   98.6    |  80.4  |
+|  capsule   |   92.9    |  98.1  |   98.5    |  56.9  |
+|    grid    |   99.6    |  99.9  |   99.5    |  60.7  |
+|    pill    |   98.9    |  99.8  |   97.4    |  74.7  |
+| transistor |   98.9    |  98.4  |   91.8    |  57.5  |
+| metal_nut  |   100.0   | 100.0  |   96.7    |  83.5  |
+|   screw    |   95.6    |  98.6  |   99.5    |  62.5  |
+| toothbrush |   100.0   | 100.0  |   99.4    |  70.3  |
+|   zipper   |   98.8    |  99.7  |   98.7    |  72.4  |
+|    tile    |   99.9    |  99.9  |   99.3    |  94.7  |
+|    wood    |   100.0   | 100.0  |   98.1    |  84.0  |
+|    Avg     |   98.9    |  99.6  |   98.4    |  75.2  |
+25-09-28 09:48:54.523 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_15.pth', dataset='mvtec', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/mvtec-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/mvtec')
+25-09-28 09:48:54.588 - INFO: test image numbe:1725, total classes number:15
+25-09-28 09:50:01.789 - INFO: 
+|    Name    |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:----------:|:---------:|:------:|:---------:|:------:|
+|   carpet   |   99.7    |  99.9  |   99.7    |  86.5  |
+|   bottle   |   100.0   | 100.0  |   99.1    |  90.5  |
+|  hazelnut  |   99.8    |  99.9  |   99.7    |  91.2  |
+|  leather   |   100.0   | 100.0  |   99.6    |  71.1  |
+|   cable    |   99.8    |  99.9  |   98.7    |  81.1  |
+|  capsule   |   94.1    |  98.6  |   98.6    |  59.6  |
+|    grid    |   99.3    |  99.8  |   99.5    |  61.6  |
+|    pill    |   99.5    |  99.9  |   97.6    |  77.2  |
+| transistor |   98.9    |  98.2  |   91.4    |  57.9  |
+| metal_nut  |   100.0   | 100.0  |   96.7    |  82.3  |
+|   screw    |   95.9    |  98.6  |   99.6    |  61.9  |
+| toothbrush |   100.0   | 100.0  |   99.2    |  64.2  |
+|   zipper   |   99.8    | 100.0  |   99.1    |  81.2  |
+|    tile    |   99.9    | 100.0  |   99.3    |  94.7  |
+|    wood    |   99.9    | 100.0  |   98.1    |  84.6  |
+|    Avg     |   99.1    |  99.6  |   98.4    |  76.4  |
+25-09-28 09:51:07.141 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_20.pth', dataset='mvtec', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/mvtec-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/mvtec')
+25-09-28 09:51:07.208 - INFO: test image numbe:1725, total classes number:15
+25-09-28 09:52:14.239 - INFO: 
+|    Name    |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:----------:|:---------:|:------:|:---------:|:------:|
+|   carpet   |   99.8    |  99.9  |   99.6    |  83.6  |
+|   bottle   |   100.0   | 100.0  |   99.2    |  91.6  |
+|  hazelnut  |   99.5    |  99.7  |   99.7    |  91.3  |
+|  leather   |   100.0   | 100.0  |   99.6    |  69.2  |
+|   cable    |   99.6    |  99.7  |   98.8    |  81.3  |
+|  capsule   |   92.5    |  98.2  |   98.6    |  59.6  |
+|    grid    |   99.2    |  99.7  |   99.3    |  56.1  |
+|    pill    |   99.6    |  99.9  |   97.6    |  76.4  |
+| transistor |   99.0    |  98.3  |   92.4    |  61.0  |
+| metal_nut  |   100.0   | 100.0  |   97.1    |  84.6  |
+|   screw    |   93.2    |  97.7  |   99.6    |  65.9  |
+| toothbrush |   99.4    |  99.8  |   99.3    |  65.4  |
+|   zipper   |   99.6    |  99.9  |   98.8    |  73.8  |
+|    tile    |   100.0   | 100.0  |   99.4    |  95.1  |
+|    wood    |   97.6    |  99.2  |   98.2    |  83.8  |
+|    Avg     |   98.6    |  99.5  |   98.5    |  75.9  |
+25-09-28 09:53:15.380 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_25.pth', dataset='mvtec', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/mvtec-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/mvtec')
+25-09-28 09:53:15.447 - INFO: test image numbe:1725, total classes number:15
+25-09-28 09:54:22.894 - INFO: 
+|    Name    |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:----------:|:---------:|:------:|:---------:|:------:|
+|   carpet   |   99.9    | 100.0  |   99.6    |  84.1  |
+|   bottle   |   100.0   | 100.0  |   99.2    |  90.8  |
+|  hazelnut  |   99.8    |  99.9  |   99.7    |  91.0  |
+|  leather   |   100.0   | 100.0  |   99.5    |  65.3  |
+|   cable    |   99.8    |  99.8  |   98.9    |  83.9  |
+|  capsule   |   92.2    |  97.9  |   98.6    |  57.2  |
+|    grid    |   99.5    |  99.8  |   99.5    |  60.2  |
+|    pill    |   99.6    |  99.9  |   97.7    |  76.9  |
+| transistor |   99.0    |  98.3  |   92.2    |  59.7  |
+| metal_nut  |   100.0   | 100.0  |   97.2    |  85.0  |
+|   screw    |   97.0    |  99.0  |   99.6    |  65.7  |
+| toothbrush |   100.0   | 100.0  |   99.3    |  66.0  |
+|   zipper   |   99.9    | 100.0  |   99.0    |  75.5  |
+|    tile    |   99.9    | 100.0  |   99.2    |  93.7  |
+|    wood    |   99.3    |  99.8  |   98.2    |  85.8  |
+|    Avg     |   99.1    |  99.6  |   98.5    |  76.1  |
+25-09-28 09:55:23.115 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_25.pth', dataset='mvtec', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/mvtec-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/mvtec')
+25-09-28 09:55:23.181 - INFO: test image numbe:1725, total classes number:15
+25-09-28 09:56:29.101 - INFO: 
+|    Name    |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:----------:|:---------:|:------:|:---------:|:------:|
+|   carpet   |   99.9    | 100.0  |   99.6    |  84.1  |
+|   bottle   |   100.0   | 100.0  |   99.2    |  90.8  |
+|  hazelnut  |   99.8    |  99.9  |   99.7    |  91.0  |
+|  leather   |   100.0   | 100.0  |   99.5    |  65.3  |
+|   cable    |   99.8    |  99.8  |   98.9    |  83.9  |
+|  capsule   |   92.2    |  97.9  |   98.6    |  57.2  |
+|    grid    |   99.5    |  99.8  |   99.5    |  60.2  |
+|    pill    |   99.6    |  99.9  |   97.7    |  76.9  |
+| transistor |   99.0    |  98.3  |   92.2    |  59.7  |
+| metal_nut  |   100.0   | 100.0  |   97.2    |  85.0  |
+|   screw    |   97.0    |  99.0  |   99.6    |  65.7  |
+| toothbrush |   100.0   | 100.0  |   99.3    |  66.0  |
+|   zipper   |   99.9    | 100.0  |   99.0    |  75.5  |
+|    tile    |   99.9    | 100.0  |   99.2    |  93.7  |
+|    wood    |   99.3    |  99.8  |   98.2    |  85.8  |
+|    Avg     |   99.1    |  99.6  |   98.5    |  76.1  |
+25-09-28 09:57:28.461 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_30.pth', dataset='mvtec', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/mvtec-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/mvtec')
+25-09-28 09:57:28.526 - INFO: test image numbe:1725, total classes number:15
+25-09-28 09:58:35.390 - INFO: 
+|    Name    |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:----------:|:---------:|:------:|:---------:|:------:|
+|   carpet   |   99.8    |  99.9  |   99.6    |  85.9  |
+|   bottle   |   100.0   | 100.0  |   99.2    |  91.6  |
+|  hazelnut  |   99.9    |  99.9  |   99.7    |  91.5  |
+|  leather   |   100.0   | 100.0  |   99.6    |  71.4  |
+|   cable    |   99.5    |  99.7  |   98.9    |  82.8  |
+|  capsule   |   94.3    |  98.6  |   98.7    |  58.1  |
+|    grid    |   99.6    |  99.9  |   99.5    |  59.0  |
+|    pill    |   99.5    |  99.9  |   97.7    |  77.8  |
+| transistor |   99.2    |  98.5  |   92.4    |  60.8  |
+| metal_nut  |   100.0   | 100.0  |   97.5    |  86.5  |
+|   screw    |   97.8    |  99.2  |   99.6    |  66.4  |
+| toothbrush |   100.0   | 100.0  |   99.3    |  66.6  |
+|   zipper   |   99.8    |  99.9  |   99.1    |  80.5  |
+|    tile    |   99.9    | 100.0  |   99.2    |  93.8  |
+|    wood    |   100.0   | 100.0  |   98.0    |  83.8  |
+|    Avg     |   99.3    |  99.7  |   98.5    |  77.1  |
+25-09-28 09:59:35.487 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_35.pth', dataset='mvtec', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/mvtec-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/mvtec')
+25-09-28 09:59:35.553 - INFO: test image numbe:1725, total classes number:15
+25-09-28 10:00:43.680 - INFO: 
+|    Name    |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:----------:|:---------:|:------:|:---------:|:------:|
+|   carpet   |   99.7    |  99.9  |   99.6    |  85.7  |
+|   bottle   |   100.0   | 100.0  |   99.1    |  90.7  |
+|  hazelnut  |   99.8    |  99.9  |   99.7    |  92.3  |
+|  leather   |   100.0   | 100.0  |   99.5    |  65.3  |
+|   cable    |   99.5    |  99.7  |   98.9    |  83.3  |
+|  capsule   |   94.4    |  98.7  |   98.7    |  60.3  |
+|    grid    |   99.6    |  99.9  |   99.3    |  55.3  |
+|    pill    |   99.8    | 100.0  |   97.9    |  79.5  |
+| transistor |   99.0    |  98.5  |   92.8    |  62.1  |
+| metal_nut  |   100.0   | 100.0  |   97.5    |  86.4  |
+|   screw    |   96.8    |  98.8  |   99.6    |  67.6  |
+| toothbrush |   100.0   | 100.0  |   99.3    |  66.7  |
+|   zipper   |   100.0   | 100.0  |   99.4    |  86.6  |
+|    tile    |   100.0   | 100.0  |   99.3    |  94.8  |
+|    wood    |   99.3    |  99.8  |   98.0    |  84.7  |
+|    Avg     |   99.2    |  99.7  |   98.6    |  77.4  |
+25-09-28 10:01:44.227 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_40.pth', dataset='mvtec', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/mvtec-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/mvtec')
+25-09-28 10:01:44.291 - INFO: test image numbe:1725, total classes number:15
+25-09-28 10:02:52.100 - INFO: 
+|    Name    |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:----------:|:---------:|:------:|:---------:|:------:|
+|   carpet   |   99.8    |  99.9  |   99.6    |  85.3  |
+|   bottle   |   100.0   | 100.0  |   99.2    |  91.1  |
+|  hazelnut  |   99.9    |  99.9  |   99.7    |  92.8  |
+|  leather   |   100.0   | 100.0  |   99.6    |  69.8  |
+|   cable    |   99.5    |  99.7  |   99.0    |  83.2  |
+|  capsule   |   95.3    |  99.0  |   98.7    |  60.0  |
+|    grid    |   99.6    |  99.9  |   99.3    |  56.7  |
+|    pill    |   99.3    |  99.9  |   97.8    |  79.4  |
+| transistor |   99.2    |  98.8  |   93.1    |  62.8  |
+| metal_nut  |   100.0   | 100.0  |   97.6    |  86.6  |
+|   screw    |   98.0    |  99.3  |   99.7    |  69.3  |
+| toothbrush |   100.0   | 100.0  |   99.3    |  67.4  |
+|   zipper   |   100.0   | 100.0  |   99.2    |  82.0  |
+|    tile    |   100.0   | 100.0  |   99.4    |  95.7  |
+|    wood    |   98.5    |  99.5  |   98.3    |  86.1  |
+|    Avg     |   99.3    |  99.7  |   98.6    |  77.9  |
+25-09-28 10:03:57.827 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_45.pth', dataset='mvtec', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/mvtec-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/mvtec')
+25-09-28 10:03:57.895 - INFO: test image numbe:1725, total classes number:15
+25-09-28 10:05:04.970 - INFO: 
+|    Name    |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:----------:|:---------:|:------:|:---------:|:------:|
+|   carpet   |   99.8    |  99.9  |   99.6    |  85.8  |
+|   bottle   |   100.0   | 100.0  |   99.2    |  91.4  |
+|  hazelnut  |   99.7    |  99.8  |   99.7    |  92.3  |
+|  leather   |   100.0   | 100.0  |   99.5    |  66.4  |
+|   cable    |   99.9    |  99.9  |   99.0    |  83.4  |
+|  capsule   |   94.7    |  98.8  |   98.7    |  59.5  |
+|    grid    |   99.6    |  99.9  |   99.3    |  55.7  |
+|    pill    |   99.2    |  99.9  |   97.8    |  78.6  |
+| transistor |   99.1    |  98.5  |   92.9    |  62.3  |
+| metal_nut  |   100.0   | 100.0  |   97.5    |  86.2  |
+|   screw    |   98.0    |  99.3  |   99.7    |  68.6  |
+| toothbrush |   100.0   | 100.0  |   99.3    |  66.0  |
+|   zipper   |   99.9    | 100.0  |   99.3    |  82.6  |
+|    tile    |   100.0   | 100.0  |   99.4    |  95.2  |
+|    wood    |   98.8    |  99.6  |   98.2    |  85.9  |
+|    Avg     |   99.2    |  99.7  |   98.6    |  77.3  |
+25-09-28 10:06:03.702 - INFO: Namespace(batch_size=16, checkpoint='dinov2_rd_50.pth', dataset='mvtec', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=448, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/mvtec-448-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/mvtec')
+25-09-28 10:06:03.771 - INFO: test image numbe:1725, total classes number:15
+25-09-28 10:07:10.648 - INFO: 
+|    Name    |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
+|:----------:|:---------:|:------:|:---------:|:------:|
+|   carpet   |   99.7    |  99.9  |   99.6    |  85.6  |
+|   bottle   |   100.0   | 100.0  |   99.2    |  91.2  |
+|  hazelnut  |   99.7    |  99.8  |   99.7    |  92.7  |
+|  leather   |   100.0   | 100.0  |   99.6    |  68.2  |
+|   cable    |   99.6    |  99.7  |   99.0    |  83.6  |
+|  capsule   |   95.4    |  99.0  |   98.7    |  58.9  |
+|    grid    |   99.6    |  99.9  |   99.4    |  57.0  |
+|    pill    |   99.2    |  99.9  |   97.9    |  79.2  |
+| transistor |   99.1    |  98.5  |   93.0    |  62.7  |
+| metal_nut  |   100.0   | 100.0  |   97.8    |  87.0  |
+|   screw    |   97.7    |  99.2  |   99.7    |  69.6  |
+| toothbrush |   100.0   | 100.0  |   99.3    |  66.6  |
+|   zipper   |   100.0   | 100.0  |   99.3    |  81.9  |
+|    tile    |   100.0   | 100.0  |   99.2    |  94.2  |
+|    wood    |   99.3    |  99.8  |   98.1    |  85.7  |
+|    Avg     |   99.3    |  99.7  |   98.6    |  77.6  |

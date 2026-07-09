@@ -1,4 +1,4 @@
-24-12-18 19:26:41.192 - INFO: Namespace(batch_size=16, dataset='visa', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=224, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec-1209/', seed=111, train_data_path='./data/visa')
+24-12-18 19:26:41.192 - INFO: Namespace(batch_size=16, dataset='visa', dual_mask=True, epoch=50, eval_metrics=['I-AUROC', 'I-AP', 'P-AUROC', 'P-AP'], image_size=224, learning_rate=0.001, mask_head=True, save_freq=10, save_path='./workspace/D2Rec/visa-224-16-dualmask-True-maskhead-True', seed=111, train_data_path='./data/visa')
 24-12-18 19:26:41.339 - INFO: test image numbe:2162, total classes number:12
 24-12-18 19:27:34.441 - INFO: 
 |    Name    |  I-AUROC  |  I-AP  |  P-AUROC  |  P-AP  |
