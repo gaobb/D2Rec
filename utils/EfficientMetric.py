@@ -18,6 +18,11 @@ class Evaluator(object):
         self.f1max = F1Max().to(device)
 
     def run(self, results, cls_name=None, logger=None):
+        # 重置所有指标的内部状态，避免跨类别调用时状态累积
+        self.auroc.reset()
+        self.aupr.reset()
+        self.aupro.reset()
+        self.f1max.reset()
 
         if cls_name is None:
             gt_px = results['gt_masks']
