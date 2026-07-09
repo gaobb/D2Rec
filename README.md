@@ -16,15 +16,15 @@ D2Rec is a simple, effective, general and robust unified (multi-class) vision an
 ## Main Results
 
 Evaluation on MVTec, VisA, BTAD, Medical and Real-IAD-Variety datasets with 224x224 input resolution.
-| datasets | I-AUROC | P-AUROC | I-AUPR | P-AUPR |
-| :------: | :-----: | :-----: | :----: | :----: | 
-|  MVTec   |   98.9    |  99.6  |   98.9    |  74.3  |
-|   VisA   |   95.4    |  96.3  |   99.0    |  48.5  |
-|   BTAD   |   96.2    |  96.6  |   97.6    |  61.3  |
-|  Medical |   88.6    |  88.5  |   98.0    |  60.6  |
-| Real-IAD-Variety |   88.1    |  97.7  |   93.8    |  46.5  |
+| datasets | #classes | I-AUROC | P-AUROC | I-AUPR | P-AUPR |
+| :------: | :-----: | :-----: | :----: | :----: |  :----: | 
+|  MVTec   |  15 |  98.9    |  99.6  |   98.9    |  74.3  |
+|   VisA   |  12 |  95.4    |  96.3  |   99.0    |  48.5  |
+|   BTAD   |  3  |  96.2    |  96.6  |   97.6    |  61.3  |
+|  Medical |  3  |  88.6    |  88.5  |   98.0    |  60.6  |
+| Real-IAD-Variety | 160   |  88.1    |  97.7  |   93.8    |  46.5  |
 
-Please see more detailed results in [results](results)
+Please see more detailed results in the [results folder](results).
 
 
 
