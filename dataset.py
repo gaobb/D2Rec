@@ -64,6 +64,7 @@ def generate_class_info(dataset_name):
         obj_list = ['chest']
     elif dataset_name == 'thyroid':
         obj_list = ['thyroid']
+    
     for k, index in zip(obj_list, range(len(obj_list))):
         class_name_map_class_id[k] = index
 
@@ -89,8 +90,15 @@ class Dataset(data.Dataset):
         self.perlinpaste_transform = PerlinPaste()
 
         self.mode = mode
+        if dataset_name == 'Real-IAD-Variety':
+            self.obj_list = self.cls_names
+            self.class_name_map_class_id = {}
+            for k, index in zip(self.obj_list, range(len(self.obj_list))):
+                self.class_name_map_class_id[k] = index
+            
+        else:
+            self.obj_list, self.class_name_map_class_id = generate_class_info(dataset_name)
 
-        self.obj_list, self.class_name_map_class_id = generate_class_info(dataset_name)
     def __len__(self):
         return self.length
 
