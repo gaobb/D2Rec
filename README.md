@@ -15,14 +15,23 @@ D2Rec is a simple, effective, general and robust unified (multi-class) vision an
 
 ## Main Results
 
-Evaluation on MVTec, VisA, BTAD, Medical and Real-IAD-Variety datasets with 224x224 input resolution.
-| datasets | #classes | I-AUROC | P-AUROC | I-AUPR | P-AUPR |
-| :------: | :-----: | :-----: | :----: | :----: |  :----: | 
-|  MVTec   |  15 |  98.9    |  99.6  |   98.9    |  74.3  |
-|   VisA   |  12 |  95.4    |  96.3  |   99.0    |  48.5  |
-|   BTAD   |  3  |  96.2    |  96.6  |   97.6    |  61.3  |
-|  Medical |  3  |  88.6    |  88.5  |   98.0    |  60.6  |
-| Real-IAD-Variety | 160   |  88.1    |  97.7  |   93.8    |  46.5  |
+Evaluation  with 224x224 input resolution and the last checkpoint (the 50-th epoch).
+| datasets | #classes | #test images | I-AUROC | P-AUROC | I-AUPR | P-AUPR |
+| :------: | :-----: | :-----: | :-----: |:----: | :----: |  :----: | 
+|  MVTec   |  15 |  1725 | 98.9    |  99.6  |   98.9    |  74.3  |
+|   VisA   |  12 |  2162 | 95.4    |  96.3  |   99.0    |  48.5  |
+|   BTAD   |  3  |  741  | 96.2    |  96.6  |   97.6    |  61.3  |
+|  Medical |  3  |  7013 | 88.6    |  88.5  |   98.0    |  60.6  |
+| Real-IAD-Variety | 160  | 178995 |  88.1    |  97.7  |   93.8    |  46.5  |
+
+Evaluation with 448x448 input resolution and the last checkpoint (the 50-th epoch).
+| datasets | #classes | #test images | I-AUROC | P-AUROC | I-AUPR | P-AUPR |
+| :------: |  :-----: |:-----: | :-----: | :-----: | :----: | :----: | 
+|  MVTec   | 15 |  1725 | 99.3    |  99.7  |   98.6    |  77.6  |
+|   VisA   | 12 |  2162 |   97.2    |  97.9  |   98.6    |  53.6  |
+|   BTAD   | 3 |   741  |  95.5    |  97.3  |   97.5    |  65.5  |
+|  Medical | 3 |   7013 |  89.0    |  88.9  |   97.3    |  62.0  |
+| Real-IAD-Variety | 160 |   178995 |  84.5    |  97.0   |   92.9    |  45.5  |
 
 Please see more detailed results in the [results folder](results).
 
